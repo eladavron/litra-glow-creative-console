@@ -2,7 +2,7 @@ import { AdjustmentAction } from '@logitech/plugin-sdk';
 import { findDevices,  getMaximumTemperatureInKelvinForDevice, getMinimumTemperatureInKelvinForDevice, getTemperatureInKelvin, setTemperatureInKelvin } from 'litra';
 
 function adjustBrightness(tick: number) {
-    console.log('Adjusting brightness of the lights');
+    console.log(`Adjusting color with tick: ${tick}`);
     for (const light of findDevices()) {
         const currentTemperature = getTemperatureInKelvin(light);
         const maxTemperature = getMaximumTemperatureInKelvinForDevice(light);
