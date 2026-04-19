@@ -27,7 +27,7 @@ function adjustBrightness(tick: number) {
 
 export class BrightnessAdjust extends AdjustmentAction {
     hasReset = false;
-    name = 'Adjust_Brightness';
+    name = 'adjust_brightness';
     displayName = 'Brightness Adjustment';
     description = 'Adjust the brightness of the lights';
 
