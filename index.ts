@@ -1,7 +1,7 @@
 import { PluginSDK } from '@logitech/plugin-sdk';
 import { ToggleAction } from './src/toggle-action';
 import { BrightnessAdjust } from './src/brightness-adjust';
-import { ColorAdjust } from './src/color-adajust';
+import { ColorAdjust } from './src/color-adjust';
 
 const pluginSDK = new PluginSDK();
 
